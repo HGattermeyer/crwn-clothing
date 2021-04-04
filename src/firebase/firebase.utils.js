@@ -1,7 +1,6 @@
 import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
-import SignInAndSignUpPage from "../pages/sign-in-and-sign-up/sign-in-and-sign-up.components";
 
 const config = {
   apiKey: "AIzaSyD4D63xdqjBYtfNb8oMjcdKykzXHLvlpkg",
