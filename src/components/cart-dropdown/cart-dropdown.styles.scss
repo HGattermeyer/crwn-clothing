@@ -20,7 +20,17 @@
     height: 240px;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+    overflow: auto;
+  }
+
+  .cart-items::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .cart-items::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(80, 80, 80, 1);
   }
 
   button {
