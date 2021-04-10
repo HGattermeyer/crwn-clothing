@@ -1,4 +1,3 @@
-import { act } from "react-dom/test-utils";
 import CartActionTypes from "./cart.types";
 import { addItemToCart, removeItemToCart } from "./cart.utils";
 
@@ -8,7 +7,6 @@ const INITIAL_STATE = {
 };
 
 const cartReducer = (state = INITIAL_STATE, action) => {
-  console.log(action);
   switch (action.type) {
     case CartActionTypes.TOGGLE_CART_HIDDEN:
       return {
